@@ -20,8 +20,9 @@ function Cards() {
     };
 
     fetchApi();
+    console.log( setArticles);
   }, []);
-
+ 
   const openUrl = (apiUrl, url, urlToImage) => {
     // Open URL in a new tab/window
     if (apiUrl) {
